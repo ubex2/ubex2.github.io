@@ -1,17 +1,53 @@
-# vivekkrish.com ![Build status][1]
+# Node Login
 
-Source code for vivekkrish.com. Based on [Indigo](https://github.com/sergiokopplin/indigo) theme.
+[![node-login](./readme.img/node-login.jpg?raw=true)](https://nodejs-login.herokuapp.com)
 
-## Bugs and Issues
+### A basic account management system built in Node.js with the following features:
 
-Have a bug or an issue with this site? [Open a new issue](https://github.com/vivekkrish/vivekkrish.github.io/issues) here on GitHub.
+* New User Account Creation
+* Secure Password Reset via Email
+* Ability to Update / Delete Account
+* Session Tracking for Logged-In Users
+* Local Cookie Storage for Returning Users
+* Blowfish-based Scheme Password Encryption
 
-## Author
+## Live Demo
 
-* [Vivek Krishnakumar](http://vivekkrish.com)
+[https://nodejs-login.herokuapp.com](https://nodejs-login.herokuapp.com)
 
-## Copyright and License
+For testing purposes you can view a [database dump of all accounts here](https://nodejs-login.herokuapp.com/print).<br>Note: This database automatically resets every 24 hours.
 
-Copyright 2017 Vivek Krishnakumar. Code released under the [MIT](https://vivekkrish.github.io/LICENSE) license.
+## Installation & Setup
+1. Install [Node.js](https://nodejs.org/) & [MongoDB](https://www.mongodb.org/) if you haven't already.
+2. Clone this repository and install its dependencies.
+		
+		> git clone git://github.com/braitsch/node-login.git node-login
+		> cd node-login
+		> npm install
+		
+3. In a separate shell start MongoDB.
 
-[1]: https://travis-ci.org/vivekkrish/vivekkrish.github.io.svg?branch=master
+		> mongod
+
+4. From within the node-login directory start the server.
+
+		> node app
+		
+5. Open a browser window and navigate to: [http://localhost:3000](http://localhost:3000)
+
+## Password Retrieval
+
+To enable the password retrieval feature it is recommended that you create environment variables for your credentials instead of hard coding them into the [email dispatcher module](https://github.com/braitsch/node-login/blob/master/app/server/modules/email-dispatcher.js).
+
+To do this on OSX you can simply add them to your .profile or .bashrc file.
+
+	export NL_EMAIL_HOST='smtp.gmail.com'
+	export NL_EMAIL_USER='your.email@gmail.com'
+	export NL_EMAIL_PASS='1234'
+
+[![node-login](./readme.img/retrieve-password.jpg?raw=true)](https://nodejs-login.herokuapp.com)
+
+
+## Contributing
+
+Questions and suggestions for improvement are welcome.
