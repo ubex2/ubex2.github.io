@@ -1,17 +1,32 @@
-# vivekkrish.com ![Build status][1]
+# Bootstrap4Resume
 
-Source code for vivekkrish.com. Based on [Indigo](https://github.com/sergiokopplin/indigo) theme.
+A single-page static website with a fixed sidebar, smooth scrolling navigation, and content sections. Great for an elegant resume or portfolio. Mobile-friendly. 
 
-## Bugs and Issues
+## Introduction
 
-Have a bug or an issue with this site? [Open a new issue](https://github.com/vivekkrish/vivekkrish.github.io/issues) here on GitHub.
+This is a simple yet elegant website created with the help of a free Bootstrap template. It's fully responsive and easy to adapt for your own purposes. You just need some skills in HTML, Bootstrap 4, and CSS3 to personalize it. A working contact form is included. 
 
-## Author
+## Live Preview
 
-* [Vivek Krishnakumar](http://vivekkrish.com)
+<p><a href="https://bootstrap4resume.deployonfriday.net/" target="_blank"> <img src="https://github.com/DrSavvina/Bootstrap4Resume/blob/master/preview1.png"></a></p>
 
-## Copyright and License
+## Technologies Used
 
-Copyright 2017 Vivek Krishnakumar. Code released under the [MIT](https://vivekkrish.github.io/LICENSE) license.
+* HTML5 & CSS3
+* Bootstrap 4
+* JavaScript
+* jQuery JavaScript Library v3.2.1
+* Font Awesome
+* Devicon
+* Google Fonts
 
-[1]: https://travis-ci.org/vivekkrish/vivekkrish.github.io.svg?branch=master
+## Sources
+
+* https://github.com/BlackrockDigital/startbootstrap-resume
+* https://fontawesome.com
+* http://konpa.github.io/devicon/
+* https://formspree.io/
+
+## How to Use it
+
+After downloading, you can edit the HTML and CSS files to make the changes you want and personalize the template. Check your changes opening the index.html in your browser.
