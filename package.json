@@ -1,27 +1,30 @@
 {
-  "name": "Riyu",
-  "version": "0.8.0",
-  "description": "",
-  "main": "js/scripts.js",
-  "scripts": {
-    "start": "npm run watch",
-    "watch": "gulp serve",
-    "build": "gulp build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "indigo",
+  "version": "0.1.0",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiokopplin/indigo.git"
   },
-  "author": "Arian Allenson M. Valdez <Secretmapper16@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "browser-sync": "^2.18.8",
-    "decache": "^4.1.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-file-include": "^1.1.0",
-    "gulp-jsbeautifier": "^2.1.0",
-    "gulp-liquify": "^0.0.6",
-    "gulp-plumber": "^1.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^2.1.2"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiokopplin/indigo/issues"
+  },
+  "homepage": "https://github.com/sergiokopplin/indigo#readme",
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.8.1",
+    "browser-sync": "^2.10.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-stylus": "^2.2.0",
+    "nib": "^1.1.0",
+    "rupture": "^0.6.1"
+  },
+  "scripts": {
+    "build": "bundle exec jekyll build",
+    "test": "bundle exec htmlproof ./_site --verbose"
   }
 }
