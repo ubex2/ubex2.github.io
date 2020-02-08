@@ -8,11 +8,11 @@ body {
   font-size: 1.4rem;
 }
 
-.outerdiv{
-	padding: 30px;
-}
-.inner-div{
-	margin: 0 auto;
+.centered{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .navbar {
