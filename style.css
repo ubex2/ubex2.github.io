@@ -8,7 +8,10 @@ body {
   font-size: 1.4rem;
 }
 
-.center-div{
+.outerdiv{
+	padding: 30px;
+}
+.inner-div{
 	margin: 0 auto;
 }
 
