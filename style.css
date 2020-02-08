@@ -55,6 +55,14 @@ a:focus {
   font-size: 1.5rem;
 }
 
+#parent {
+	text-align:center;
+}
+
+.center {
+	margin:auto;
+}
+
 .list-icons {
   font-size: 3rem;
 }
