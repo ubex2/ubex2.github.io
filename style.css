@@ -264,6 +264,7 @@ button:active {
   -webkit-backface-visibility: hidden;
   position: absolute;
   display: none;
+  text-align: center;
   width: 100%;
   left: 0;
   top: 0;
