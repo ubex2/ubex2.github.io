@@ -255,7 +255,8 @@ button:active {
   position: relative;
   list-style: none;
   overflow: hidden;
-  width: 100%;
+  width: 50%;
+  height: 50%;
   padding: 0;
   margin: 0 auto;
   }
@@ -265,8 +266,7 @@ button:active {
   position: absolute;
   display: block;
   text-align: center;
-  width: 75%;
-  height: 75%;
+  width: 100%;
   }
 
 .rslides li:first-child {
